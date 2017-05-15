@@ -1,6 +1,6 @@
 # mixcloud-audio
 
-> Scrapes [mixcloud](https://www.mixcloud.com) url to get audio stream urls
+> Scrapes [Mixcloud](https://www.mixcloud.com) url to get audio stream urls
 
 ## Install
 
@@ -35,6 +35,8 @@ getStreamUrls(url)
 ```bash
 npm test
 ```
+
+NOTE: this module will most likely break in the future when Mixcloud updates their audio endpoints.
 
 ## License
 

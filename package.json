@@ -1,7 +1,7 @@
 {
   "name": "mixcloud-audio",
-  "version": "0.0.1",
-  "description": "Scrapes [mixcloud](https://www.mixcloud.com) url to get audio stream urls",
+  "version": "0.0.2",
+  "description": "Scrapes [Mixcloud](https://www.mixcloud.com) url to get audio stream urls",
   "main": "index.js",
   "scripts": {
     "test": "node test/*"
