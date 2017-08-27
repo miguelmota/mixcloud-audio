@@ -21,7 +21,7 @@ function getStreamUrls(mixcloudUrl) {
       $(`[${attr}]`).each((i, elem) => {
         const jsonUrl = elem.attribs[attr]
 
-        const pathname = jsonUrl.match(/^http.*\.com(.*)\.json.*$/i)
+        const pathname = jsonUrl.match(/^https?.*\.com(.*)\.json.*$/i)
 
         if (pathname && pathname.length > 1) {
           const streamUrl = `https://stream4.mixcloud.com/c/m4a/64${pathname[1]}.m4a`
